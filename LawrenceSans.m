@@ -352,7 +352,7 @@
                 [NSNumber numberWithInt:0b10000001],
                 [NSNumber numberWithInt:0b10000001],
                 [NSNumber numberWithInt:0b10000001],
-                [NSNumber numberWithInt:0b11111111],nil];
+                [NSNumber numberWithInt:0b01111110],nil];
     }
     if (character == 'v') {
         return [NSArray arrayWithObjects:
