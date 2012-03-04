@@ -588,7 +588,8 @@
                 [NSNumber numberWithInt:0b00010000],
                 [NSNumber numberWithInt:0b00000000],
                 [NSNumber numberWithInt:0b00010000],nil];
-    }
+    } 
+  
     if (character == '£') {
         return [NSArray arrayWithObjects:
                 [NSNumber numberWithInt:0b00011111],
@@ -730,6 +731,17 @@
                 [NSNumber numberWithInt:0b00111100],
                 [NSNumber numberWithInt:0b00111100],
                 [NSNumber numberWithInt:0b00011000],
+                [NSNumber numberWithInt:0b00000000],
+                [NSNumber numberWithInt:0b00000000],nil];
+    }
+    if (character == ' ') {
+        return [NSArray arrayWithObjects:
+                [NSNumber numberWithInt:0b00000000],
+                [NSNumber numberWithInt:0b00000000],
+                [NSNumber numberWithInt:0b00000000],
+                [NSNumber numberWithInt:0b00000000],
+                [NSNumber numberWithInt:0b00000000],
+                [NSNumber numberWithInt:0b00000000],
                 [NSNumber numberWithInt:0b00000000],
                 [NSNumber numberWithInt:0b00000000],nil];
     }
