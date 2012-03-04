@@ -668,7 +668,7 @@
                 [NSNumber numberWithInt:0b00000000],
                 [NSNumber numberWithInt:0b00000000],nil];
     }
-    if (character == '\') {
+    if (character == '\\') {
         return [NSArray arrayWithObjects:
                 [NSNumber numberWithInt:0b10000000],
                 [NSNumber numberWithInt:0b01000000],
